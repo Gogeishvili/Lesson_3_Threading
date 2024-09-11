@@ -7,7 +7,7 @@ class DataLoader:
 
     def __init__(self):
         self.__result = []
-        self.__lock=threading.Lock()
+        self.__lock = threading.Lock()
 
     @property
     def result(self):
